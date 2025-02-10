@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
 @AllArgsConstructor
-public class PingController {
+public class HelloController {
 
   public static final ResponseEntity<String> OK = new ResponseEntity<>("OK", HttpStatus.OK);
   public static final ResponseEntity<String> KO =
